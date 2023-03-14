@@ -35,7 +35,6 @@ export default class Validator {
     return this.regexTest && this.lengthTest;
   }
 
-  // eslint-disable-next-line class-methods-use-this
   luhnAlgo(str) {
     const arr = Array.from(str);
     let sum = 0;
@@ -55,6 +54,7 @@ export default class Validator {
       }
     }
     const res = (10 - (sum % 10)) % 10;
-    return res === Number(check);
+    this.check = res === Number(check);
+    return this.check;
   }
 }
