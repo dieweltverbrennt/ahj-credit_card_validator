@@ -1,0 +1,133 @@
+.widget-container {
+    padding-left: 20px;
+    margin-top: 300px;
+    display: block;
+    
+}
+
+.card-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-list-item:nth-child(n+2) {
+    margin-left: 0px;
+}
+
+.mir {
+    display: block;
+    background-image: url('../img/mir.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.visa {
+    display: block;
+    background-image: url('../img/visa.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.master-card {
+    display: block;
+    background-image: url('../img/mastercard.png');
+    background-repeat: no-repeat;
+    background-size: 57px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.american-express {
+    display: block;
+    background-image: url('../img/american-express.png');
+    background-repeat: no-repeat;
+    background-size: 48px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.discover {
+    display: block;
+    background-image: url('../img/discover.png');
+    background-repeat: no-repeat;
+    background-size: 48px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.jcb {
+    display: block;
+    background-image: url('../img/jcb.png');
+    background-repeat: no-repeat;
+    background-size: 48px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.diners {
+    display: block;
+    position: relative;
+    background-image: url('../img/diners.png');
+    background-repeat: no-repeat;
+    background-size: 48px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.inactive {
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    display: block;
+    width: 210px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(122, 122, 122);
+}
+
+button {
+    background-color: rgb(37, 160, 37);
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(29, 119, 29);
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: rgb(29, 119, 29);
+    cursor: pointer;
+}
+
+.msg {
+    margin-top: 10px;;
+}
+
+.hide {
+    display: block;
+}
