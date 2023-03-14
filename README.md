@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/ad061ce2jjdgf48g?svg=true)](https://ci.appveyor.com/project/dieweltverbrennt/ahj-credit-card-validator)
+[![Build status](https://ci.appveyor.com/api/projects/status/ib9jrgcr3x54q8ku?svg=true)](https://ci.appveyor.com/project/dieweltverbrennt/ahj-credit-card-validator-hdxxd)
 
 https://dieweltverbrennt.github.io/ahj-credit_card_validator/
 ___
