@@ -62,6 +62,7 @@ export default class Dom {
     }
   }
 
+  // eslint-disable-next-line class-methods-use-this
   showMsg(str, color) {
     const msg = document.createElement('span');
     msg.classList.add('msg');

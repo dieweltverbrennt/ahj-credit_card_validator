@@ -34,7 +34,17 @@ describe('Credit Card Validator form', () => {
     server.kill();
   });
 
-  test('should add do something', async () => {
+  test('should open correct form', async () => {
     await page.goto(baseUrl);
+  });
+
+  test('should show message after click', async () => {
+    await page.goto(baseUrl);
+    const form = await page.$('.widget-container');
+    const input = await form.$('input');
+    await input.type('4539499701100246');
+    const submit = await form.$('button');
+    submit.click();
+    await page.waitForSelector('.msg');
   });
 });

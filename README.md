@@ -1,15 +1,10 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ad061ce2jjdgf48g?svg=true)](https://ci.appveyor.com/project/dieweltverbrennt/ahj-credit-card-validator)
 ___
 ### Credit Card Validator
 
 #### Легенда
 
 Вам пришла задача: сделать виджет, позволяющий вводить номер карты (можете в качестве общего развития почитать про PCI DSS).
-
-Общий вид виджета должен выглядеть следующим образом:
-
-![](./pic/validator.png)
-
-Скриншот взят с сайта http://www.validcreditcardnumber.com.
 
 Вам нужно провести исследовательскую работу и выяснить - на базе чего определяется, какой платёжной системе принадлежит определённая карта (не забудьте про "Мир").
 
